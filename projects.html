@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A selection of web development projects by Nivedita Singh.">
+    <title>Projects | Nivedita Singh</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body id="top">
+
+<header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+        <a class="logo" href="index.html">Nivedita<span>.</span></a>
+        <button class="menu-toggle" type="button" onclick="toggleMenu()" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+        <div class="nav-links" id="navLinks">
+            <a href="index.html">Home</a>
+            <a href="about.html">About &amp; Education</a>
+            <a href="skill.html" aria-current="page">Skills &amp; Projects</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <button class="theme-toggle" type="button" onclick="toggleTheme()" aria-label="Switch to light theme" title="Toggle theme">☼</button>
+    </nav>
+</header>
+
+<main class="page">
+    <p class="tagline page-kicker"><span class="status-dot"></span> A FEW THINGS I’VE BUILT</p>
+    <h1 class="page-heading">Featured <span>Projects</span></h1>
+    <p class="projects-intro">Small ideas, built with curiosity and code. Take a look around.</p>
+
+    <div class="cards project-grid">
+        <article class="card project-card">
+            <div class="project-preview tour-preview" aria-hidden="true">
+                <span class="preview-icon tour-icon">
+                    <svg viewBox="0 0 64 64"><path d="M8 52h48M13 48V29l19-14 19 14v19M23 48V35h18v13M28 35v13M36 35v13M22 28h20M30 15V9h4v6M10 28l22-17 22 17"/></svg>
+                </span>
+                <span class="preview-caption">EXPLORE THE INCREDIBLE</span>
+                <strong>Tour Bharat</strong>
+            </div>
+            <p class="project-type">Travel &amp; tourism</p>
+            <h2>Tour Bharat</h2>
+            <p>A tourism website showcasing beautiful tourist destinations across India.</p>
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <div class="project-actions">
+                <a class="btn" href="https://niveditasingh7.github.io/Tour-Bharat/" target="_blank" rel="noopener noreferrer">Project Link ↗</a>
+            </div>
+        </article>
+
+        <article class="card project-card">
+            <div class="project-preview calculator-preview" aria-hidden="true">
+                <div class="calculator-art">
+                    <span class="calculator-display">1,234 <small>× 45</small></span>
+                    <span class="calculator-key">AC</span><span class="calculator-key">±</span><span class="calculator-key">%</span><span class="calculator-key operator">÷</span>
+                    <span class="calculator-key">7</span><span class="calculator-key">8</span><span class="calculator-key">9</span><span class="calculator-key operator">×</span>
+                    <span class="calculator-key">4</span><span class="calculator-key">5</span><span class="calculator-key">6</span><span class="calculator-key operator">−</span>
+                    <span class="calculator-key">1</span><span class="calculator-key">2</span><span class="calculator-key">3</span><span class="calculator-key operator">+</span>
+                </div>
+            </div>
+            <p class="project-type">Web application</p>
+            <h2>Calculator</h2>
+            <p>A responsive calculator for basic mathematical operations with a clean, user-friendly interface.</p>
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <div class="project-actions">
+                <a class="btn" href="#" aria-label="Replace with Calculator project link">Project Link ↗</a>
+            </div>
+        </article>
+
+        <article class="card project-card">
+            <div class="project-preview portfolio-preview" aria-hidden="true">
+                <div class="portfolio-art">
+                    <span class="portfolio-nav">N<span>.</span> &nbsp; ABOUT &nbsp; WORK &nbsp; CONTACT</span>
+                    <span class="portfolio-overline">ASPIRING DEVELOPER</span>
+                    <strong>Hello, I’m<br>Nivedita<span>.</span></strong>
+                    <span class="portfolio-button">Explore my work &nbsp; →</span>
+                </div>
+            </div>
+            <p class="project-type">Portfolio</p>
+            <h2>My Personal Portfolio</h2>
+            <p>A personal website showcasing my introduction, education, skills, and projects.</p>
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <div class="project-actions">
+                <a class="btn" href="#" aria-label="Replace with portfolio project link">Project Link ↗</a>
+            </div>
+        </article>
+    </div>
+</main>
+
+</body>
+</html>

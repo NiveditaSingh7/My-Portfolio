@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Nivedita Singh about web development, projects, and collaboration.">
+    <title>Contact | Nivedita Singh</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body id="top">
+<header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+        <a class="logo" href="index.html">Nivedita<span>.</span></a>
+        <button class="menu-toggle" type="button" onclick="toggleMenu()" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+        <div class="nav-links" id="navLinks">
+            <a href="index.html">Home</a>
+            <a href="about.html">About &amp; Education</a>
+            <a href="skill.html">Skills &amp; Projects</a>
+            <a href="contact.html" aria-current="page">Contact</a>
+        </div>
+        <button class="theme-toggle" type="button" onclick="toggleTheme()" aria-label="Switch to light theme" title="Toggle theme">☼</button>
+    </nav>
+</header>
+<main class="page">
+    <h1>Let’s <span>Connect</span></h1>
+    <p class="page-subtitle">Have a question or want to get in touch? Send me a message.</p>
+    <div class="contact-layout contact-layout-single">
+        <section class="contact-panel">
+            <h2>Send a message</h2>
+            <form id="contactForm">
+                <label for="name">Name
+                    <input id="name" name="name" type="text" autocomplete="name" required>
+                </label>
+                <label for="email">Email
+                    <input id="email" name="email" type="email" autocomplete="email" required>
+                </label>
+                <label for="subject">Subject
+                    <input id="subject" name="subject" type="text" required>
+                </label>
+                <label for="message">Message
+                    <textarea id="message" name="message" required></textarea>
+                </label>
+                <button class="btn" type="submit">Send message <span aria-hidden="true">→</span></button>
+                <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+            </form>
+        </section>
+    </div>
+</main>
+</body>
+</html>
